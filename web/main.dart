@@ -19,7 +19,22 @@ void main() {
 
   var rect = stage.contentRectangle;
   Game game = new Game(stage, 1);
+  StartInstructions instructions = new StartInstructions(
+      [
+        'Click/Touch to start',
+        'Click or touch a tory to squash it',
+        'Tory changes as time goes on from MP to Minister, then Prime Minister.',
+        'Game ends when a tory becomes and stays a Prime Minister for too long',
+        'I included a speach from Dennis Skinner that plays when you eventually loose the game.'])
+    ..width = rect.width
+    ..height = rect.height
+    ..x = rect.topLeft.x
+    ..y = rect.topLeft.y
+    ..addTo(stage)
+    ;
+
   subscription = stage.addEventListener(MouseEvent.CLICK, (e) {
+    instructions.removeFromParent();
     game.run(
         [
           new Tory('David Cameron', 'images/David_Cameron2.jpg', 'sounds/pig_scream.mp3'),

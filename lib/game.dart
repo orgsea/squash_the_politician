@@ -9,6 +9,7 @@ import 'package:stagexl/stagexl.dart';
 part 'tory.dart';
 part 'score.dart';
 part 'frog.dart';
+part 'start_instructions.dart';
 
 class Game {
   Stage _stage;
