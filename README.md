@@ -7,4 +7,4 @@ You might guess that this is UK centric.
 
 I've created a gh-pages branch, which should allow you to play this game
 
-[Squash The Tory](https://terrasea.github.io/squash_the_tory/)
+[Squash The Tory](https://orgsea.github.io/squash_the_tory/)
