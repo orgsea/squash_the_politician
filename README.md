@@ -1,4 +1,4 @@
-# squash_the_tory
+# squash_the_politician
 
 An unwinnable game, where you squash politicians as they pop up on the game board. 
 Instead of squashing the politician with a satisfying splat, they'll instead turn into frogs, 
